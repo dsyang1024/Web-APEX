@@ -1,0 +1,192 @@
+body{margin:0;background: #efefef}
+
+.header{
+  background:#00bcd4;color:#fff;
+}
+
+.h1{
+  padding:25px 200px;font-size:20px;
+}
+
+.h2{
+  padding:25px 200px;font-size:30px;font-weight: bold
+}
+
+.banner{
+  padding:25px 200px;color:#fff;font-size:20px;background:#4dd0e1;
+}
+
+.article{
+  margin:30px 200px;background: #fff;box-shadow: 0 8px 8px rgba(0,0,0,.12);
+}
+
+.title{
+  padding:25px; border-bottom:1px solid #e0e0e0; font-size: 24px; color:#444;font-weight: bold
+}
+
+.context{
+  padding:25px; font-size:16px ; color:#777;
+}
+
+.image{
+  width:250px; height:120px;
+}
+
+.image2{
+  width:50px; height:50px;
+}
+
+.button {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow:#FFFFFF 0 0px 0px 40px inset;
+}
+
+.button:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(100, 255, 100, 0.7) 0 0px 0px 40px inset;
+}
+
+@import url(https://agrilifecdn.tamu.edu/epicapex/files/2015/09/APEX-logo-2.png:120,250);
+figure.snip1432 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background: #FFFFFF;
+  color: #0000FF;
+}
+
+figure.snip1432 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+figure.snip1432 img {
+  opacity: 1.0;
+  width: 100%;
+  vertical-align: top;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1432 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure.snip1432 figcaption > div {
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+figure.snip1432 h2,
+figure.snip1432 h3 {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+figure.snip1432 h2 {
+  font-weight: 900;
+  top: 0;
+}
+figure.snip1432 h3 {
+  font-size: 1em;
+  bottom: 0;
+  font-weight: 500;
+}
+figure.snip1432 h3:nth-of-type(2) {
+  opacity: 0;
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+}
+figure.snip1432 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.snip1432:hover img,
+figure.snip1432.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.snip1432:hover figcaption h3:first-of-type,
+figure.snip1432.hover figcaption h3:first-of-type {
+  -webkit-transform: translateY(150%);
+  transform: translateY(150%);
+  opacity: 0;
+}
+figure.snip1432:hover figcaption h3:nth-of-type(2),
+figure.snip1432.hover figcaption h3:nth-of-type(2) {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+/* ê¸€ë¡œë²Œ */
+.wrap{width:1000px;margin:0 auto;}
+
+/* í—¤ë” */
+.header{z-index:8;background:#fff;color:#000;overflow: hidden;position: fixed;left:0;top:0;width:100%;background:#fff;border-bottom:1px solid #e0e0e0;}
+.header .logo{float:left;display: block;padding:19px 0 10px 79px;}
+.header .logo img{height:31px;}
+.header .menu{float:right;display:block;padding-top:38px;color:#888;font-size:16px;margin-right:25px;}
+.header .menu.selected{font-weight: bold;color:#ff6375;}
+
+.dropmenu{position: fixed;left:50%;margin-left:-500px;top:0;width:64px;height:64px;background:#ff6375;z-index: 10}
+.dropmenu img{transition: all 300ms;}
+.dropdown{overflow:hidden;text-align:center;color:#fff;font-size:16px;line-height:200px;top:64px;width:100%;left:0;height:0;position: fixed;background:#ff6375;transition: all 300ms;z-index:9}
+.dropmenu:hover .dropdown{height:200px;}
+.dropmenu:hover img{transform: rotate(180deg);}
+.void{height:64px;}
+
+
+.banner2{background: #efefef;padding:30px 0; }
+.banner2 .rect{cursor:pointer;transition:all 300ms;position:relative;background: #fff;padding:20px 20px 15px;overflow: hidden}
+.banner2 .title{transition:all 300ms;color:#777;font-size:16px;float:left; width:30%;}
+.banner2 .graph{float:left;width:40%;height:5px;margin-top:4px;background: #d4d5d6}
+.banner2 .graph .fill{transition:all 300ms;width:45%;height:100%;background: #ff6375}
+.banner2 .text{color:#fff;transition:all 300ms;position:absolute;top:35px;opacity:0;right:0;width:30%;text-align: center}
+.banner2:hover .text{top:22px;opacity:1;}
+.banner2:hover .rect{background:#ff6375;}
+.banner2:hover .title{color:#fff;}
+.banner2:hover .graph{background: #ccc}
+.banner2:hover .fill{background: #fff;}
+/* ë³¸ë¬¸ */
+.article{overflow: hidden;padding:30px 0;}
+.article .one{float:left;width:30%;margin:0 1.5% 20px; border:1px solid #e0e0e0; box-sizing: border-box;}
+.article .one .top{height:200px; background-size: cover;border-bottom:1px solid #e0e0e0;}
+.article .one .top{transition: transform 300ms;}
+.article .one .top:hover{transform: scale(1.05);}
+
+.article .one .bottom{padding:20px;}
+.article .one .bottom .title{font-size:16px;font-weight: bold;padding-bottom:15px;color:#333;}
+.article .one .bottom .context{font-size:12px;line-height:1.5;height:45px;color:#777;}
+
+.article .help{padding:100px 0;font-size:24px;border:1px solid #e0e0e0;background-image:url(../../images/btn.png);}
+/* í‘¸í„° */
+.footer{padding:15px 0 30px;border-top:2px solid #efefef;margin-top:40px;overflow: hidden}
+.footer .left{float:left;}
+.footer .right{float:right;overflow: hidden;margin-top:15px;}
+.footer .right a{color:#777;font-size:12px}
+.footer .title{font-size:13px;font-weight: bold; color:#444;margin:20px 0;}
+.footer .context{font-size:12px; color:#777;margin:20px 0;}
+
+@media(max-width:1000px){
+.wrap{width:auto;}
+.dropmenu{left:0;margin:0;}
+.article .one{width:auto;float:none;margin:20px;}
+.banner2{display:none;}
+.footer{padding:20px;}
+}
